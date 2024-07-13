@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/G4ngst4Cod3r/PortfolioAssets.git
+RUN git clone https://github.com/TSGbackup2024/MathanticsPort.git
 
-WORKDIR /PortfolioAssets
+WORKDIR /MathanticsPort
 
 RUN npm install
 
